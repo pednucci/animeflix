@@ -1,0 +1,55 @@
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    }
+
+    header .logo{
+        margin: 0;
+    }
+
+    .botao{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 45px;
+    }
+    .botoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgTitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+    }
+    .filme-principal .container{
+        width: 80%;
+        align-self: center;
+        min-height:80vh;
+        margin-left: 0;
+    }
+    .descricao{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .imgTitulo img {
+        width: 300px;
+    }
+    .filme-principal .container{
+        min-height: 60vh;
+    }
+}
