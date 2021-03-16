@@ -75,7 +75,7 @@ footer{
 }
 
 .containerFooter p{
-    color: black;
+    color: var(--preta);
     font-size: 15px;
     margin-right: 10px;
     font-weight: bold;
