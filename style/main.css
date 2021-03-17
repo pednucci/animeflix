@@ -86,7 +86,7 @@ footer{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/background.jpg');
 
-    min-height:60vh;
+    min-height: 90vh;
     background-size:cover;
     
 
@@ -95,7 +95,6 @@ footer{
     justify-content: center;
     align-items: flex-start;
 }
-
 
 .filme-principal .descricao{
     margin-bottom: 15px;
