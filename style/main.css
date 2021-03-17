@@ -164,6 +164,7 @@ footer{
     width: 100%;
     display: block;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 
